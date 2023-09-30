@@ -31,7 +31,7 @@ class TrainPipeline:
                 test_array=test_arr,
                 preprocessor_path=preprocessor_file_path,
             )
-            print("training completed. Trained model score : ", r2_square)
+            print("Training completed. Trained model score : ", r2_square)
 
         except Exception as e:
             raise CustomException(e, sys)

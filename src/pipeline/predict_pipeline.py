@@ -1,4 +1,3 @@
-import shutil
 import os,sys
 import pandas as pd
 from src.logger import logging
